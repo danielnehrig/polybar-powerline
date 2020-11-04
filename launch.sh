@@ -11,4 +11,4 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 BASEDIR=$(dirname "$0")
 ## Launch
 source $BASEDIR/exports.sh
-MONITOR=eDP0 polybar -c $BASEDIR/config.ini bottom &
+MONITOR=eDP0 polybar -c $BASEDIR/config.ini top &
