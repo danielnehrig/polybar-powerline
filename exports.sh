@@ -18,7 +18,8 @@ export white="#ffffff"
 
 # source theme colors (primary, secondary etc)
 # this is a symbolic link
-source ./theme.sh
+BASEDIR=$(dirname "$0")
+source $BASEDIR/theme.sh
 
 # module formatting
 # https://github.com/LemonBoy/bar#formatting
