@@ -1,5 +1,7 @@
 # Polybar Powerline Segmenting and Modules
 
+## Leave a Star if you like it
+
 ## CONTRIBUTE
 
 - a module
