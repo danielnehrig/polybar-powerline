@@ -20,10 +20,10 @@
 
 ## Install
 
-** WARNING SCRIPT WILL DELETE ~/.config/polybar folder
+** WARNING SCRIPT WILL DELETE ~/.config/polybar folder  
 git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline  
-cd ~/polbar-powerline
-./install.sh
+cd ~/polbar-powerline  
+./install.sh  
 
 run the launch.sh from your WM settings or manually or with sysd or what ever
 
