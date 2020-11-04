@@ -20,12 +20,10 @@
 
 ## Install
 
-note: make sure you don't have a polybar folder currently in .config
-** MAKE A BACKUP IF NEEDED **
-
-rm -rf ~/.config/polybar // WARNING THIS WILL DELETE ALL CONTENTS  
+** WARNING SCRIPT WILL DELETE ~/.config/polybar folder
 git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline  
-ln -s ~/polybar-powerline ~/.config/polybar  
+cd ~/polbar-powerline
+./install.sh
 
 run the launch.sh from your WM settings or manually or with sysd or what ever
 
