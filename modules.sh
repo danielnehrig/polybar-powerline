@@ -7,12 +7,15 @@
 #
 
 # bar height default 25px needs to be scaled up on higher DPI screens
-export POLY_BAR_HEIGHT=25
+export POLY_BAR_HEIGHT=38
 
 text_size=14
 icon_size_2=20
 icon_size_1=14
 line_height=3
+
+# changeable settings
+export POLY_NETWORK_WIRLESS_INT="wlp3s0"
 
 # fonts
 export POLY_FONT_0="Material Design Icons:pixelsize=$icon_size_1:style:Solid;$line_height"
