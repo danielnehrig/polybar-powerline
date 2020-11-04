@@ -25,6 +25,11 @@ git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline
 cd ~/polbar-powerline  
 ./install.sh  
 
+## Customize
+
+Change the modules you want in modules.sh (it has example modules you can safely edit this file its ignored)  
+Adding modules maybe consider contributing scripts and segments  
+
 run the launch.sh from your WM settings or manually or with sysd or what ever
 
 ![Gruvbox Theme Thumbnail](https://raw.githubusercontent.com/danielnehrig/polybar-powerline/master/Thumbnail.png)

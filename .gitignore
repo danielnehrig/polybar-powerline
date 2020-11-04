@@ -1,3 +1,4 @@
 *.swp
 .backup
+modules.sh
 **/speedlog
