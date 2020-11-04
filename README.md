@@ -25,3 +25,5 @@ git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline
 ln -s ~/polybar-powerline ~/.config/polybar
 
 run the launch.sh from your WM settings or manually or with sysd or what ever
+
+![Gruvbox Theme Thumbnail](https://raw.githubusercontent.com/danielnehrig/polybar-powerline/master/Thumbnail.png)
