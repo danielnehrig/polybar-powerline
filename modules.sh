@@ -7,7 +7,7 @@
 #
 
 # bar height default 25px needs to be scaled up on higher DPI screens
-export POLY_BAR_HEIGHT=38
+export POLY_BAR_HEIGHT=25
 
 text_size=14
 icon_size_2=20
