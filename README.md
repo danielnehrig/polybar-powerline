@@ -22,7 +22,7 @@
 
 ** WARNING SCRIPT WILL DELETE ~/.config/polybar folder  
 git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline  
-cd ~/polbar-powerline  
+cd ~/polybar-powerline  
 ./install.sh  
 
 ## Customize
