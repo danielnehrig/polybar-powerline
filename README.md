@@ -13,7 +13,7 @@
 - polybar
 - fonts
   - Nerd-Font (aur)
-  - MaterialIcons-Regular ![link](https://material.io/resources/icons/?style=baseline)
+  - MaterialIcons-Regular [link](https://material.io/resources/icons/?style=baseline)
 - speedtest-cli
   - pip install speedtest-cli
 - checkupdates (cli command) (arch = pacman-contrib)
