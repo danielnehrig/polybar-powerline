@@ -12,4 +12,4 @@ BASEDIR=$(dirname "$0")
 ## Launch
 source $BASEDIR/exports.sh
 source $BASEDIR/modules.sh
-MONITOR=eDP0 polybar -c $BASEDIR/config.ini top &
+MONITOR=DP-4 polybar -c $BASEDIR/config.ini top &

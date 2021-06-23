@@ -21,7 +21,8 @@
 ## Install
 
 ** WARNING SCRIPT WILL DELETE ~/.config/polybar folder  
-git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline  
+git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline
+adjust your display in launch.sh MONITOR
 cd ~/polybar-powerline  
 ./install.sh  
 
