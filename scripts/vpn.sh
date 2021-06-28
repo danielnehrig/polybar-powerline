@@ -13,3 +13,7 @@ fi
 if [[ $amount == '2' ]]; then
   echo "%{F$green}歷%{F-}"
 fi
+
+if [[ $amount == '3' ]]; then
+  echo "%{F$green}歷%{F-}"
+fi
