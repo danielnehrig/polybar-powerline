@@ -24,5 +24,5 @@ export POLY_FONT_2="Hack Nerd Font Mono:pixelsize=$icon_size_2:style:regular;6"
 
 # customize here
 export MODULES_CENTER="spacer-slanted-left-grayLight date spacer-slanted-right-grayLight"
-export MODULES_RIGHT="cpu spacer-thin-left-whiteLight pulseaudio spacer-thicc-left-grayLight whitespace xkeyboard battery power-menu"
+export MODULES_RIGHT="cpu spacer-thin-left-whiteLight vpn spacer-thin-left-whiteLight pulseaudio spacer-thicc-left-grayLight whitespace xkeyboard battery power-menu"
 export MODULES_LEFT="updates spacer-thicc-right-grayDark i3 spacer-thin-right-whiteDark xwindow spacer-thicc-right-grayLight"
