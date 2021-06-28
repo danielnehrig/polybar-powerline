@@ -6,8 +6,10 @@
 # Distributed under terms of the MIT license.
 #
 amount=$(ps aux | grep openvpn | wc -l)
-if [[ $amount == '0' ]]; then
+if [[ $amount == '1' ]]; then
   echo "%{F$red}轢%{F-}"
-else
+fi
+
+if [[ $amount == '2' ]]; then
   echo "%{F$green}歷%{F-}"
 fi
