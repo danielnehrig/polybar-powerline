@@ -31,8 +31,8 @@ export MODULE_VM="%{F$grayLight}%{B$grayLight}<label>"
 export MODULE_CPU="%{F$red}CPU%{F-} %percentage%%"
 
 # spacers
+export WHITESPACE_MODULE="%{B$grayLight}%{F$grayDark} %{B$grayDark}"
 export MODULE_THICC_SPACER_LEFT_GRAYLIGHT="%{B$grayDark}%{F$grayLight}%{B$grayLight}"
-export MODULE_THICC_SPACER_LEFT_GRAYDARK="%{B$grayLight}%{F$grayDark}%{B$grayDark}"
 export MODULE_THICC_SPACER_RIGHT_GRAYLIGHT="%{B$grayDark}%{F$grayLight}%{B$grayLight}"
 export MODULE_THICC_SPACER_RIGHT_GRAYDARK="%{B$grayLight}%{F$grayDark}%{B$grayDark}"
 
