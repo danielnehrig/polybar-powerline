@@ -12,4 +12,7 @@ BASEDIR=$(dirname "$0")
 ## Launch
 source $BASEDIR/exports.sh
 source $BASEDIR/modules.sh
-MONITOR=DP-4 polybar -c $BASEDIR/config.ini top &
+for monitor in $(xrandr --query | grep " connected" | cut -d" " -f1); do
+    echo "Starting top bar on monitor '$monitor'"
+    MONITOR="$monitor" polybar -c $BASEDIR/config.ini top &
+done
