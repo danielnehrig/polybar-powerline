@@ -12,4 +12,7 @@ BASEDIR=$(dirname "$0")
 ## Launch
 source $BASEDIR/exports.sh
 source $BASEDIR/modules.sh
-MONITOR=eDP0 polybar -c $BASEDIR/config.ini top &
+##MONITOR=DVI-I-1 polybar -c $BASEDIR/config.ini top &
+MONITOR=DP-0 polybar -c $BASEDIR/config.ini top &
+##MONITOR=HDMI-0 polybar -c $BASEDIR/config.ini top &
+##MONITOR=DVI-D-0 polybar -c $BASEDIR/config.ini top &
