@@ -5,6 +5,8 @@
 #
 # Distributed under terms of the MIT license.
 #
+# NOTE: DEFAULT CONFIG FOR POLYBAR POWERLINE
+# CAN BE OVERWRITTEN WITH modules_custom.sh
 
 # bar height default 25px needs to be scaled up on higher DPI screens
 export POLY_BAR_HEIGHT=25
@@ -23,6 +25,9 @@ export POLY_FONT_1="Hack Nerd Font Mono:pixelsize=$text_size:style:regular;$line
 export POLY_FONT_2="Hack Nerd Font Mono:pixelsize=$icon_size_2:style:regular;6"
 
 # customize here
-export MODULES_CENTER="spacer-slanted-left-grayLight date spacer-slanted-right-grayLight"
-export MODULES_RIGHT="cpu spacer-thin-left-whiteLight vpn spacer-thin-left-whiteLight pulseaudio spacer-thicc-left-grayLight whitespace xkeyboard battery power-menu"
-export MODULES_LEFT="updates spacer-thicc-right-grayDark i3 spacer-thin-right-whiteDark xwindow spacer-thicc-right-grayLight"
+export MODULES_CENTER="spacer-slanted-left-bg_accent_1 date spacer-slanted-right-bg_accent_1"
+export MODULES_RIGHT="cpu spacer-thin-left-whiteLight vpn spacer-thin-left-whiteLight pulseaudio spacer-thicc-left-bg_accent_1 vm xkeyboard battery power-menu"
+export MODULES_LEFT="updates spacer-thicc-right-bg_accent_2 i3 spacer-thin-right-whiteDark xwindow spacer-thicc-right-bg_accent_1"
+
+FILE=/home/$USER/.config/polybar/modules_custom.sh
+[[ ! -f $FILE ]] || source $FILE
