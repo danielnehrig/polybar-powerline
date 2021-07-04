@@ -11,12 +11,14 @@
 ## Requirements
 
 - polybar
+- i3 / dwm
 - fonts
   - Nerd-Font (aur)
   - MaterialIcons-Regular [link](https://material.io/resources/icons/?style=baseline)
 - speedtest-cli (for speedtest module)
   - pip install speedtest-cli
 - checkupdates (cli command) (arch = pacman-contrib)
+- openvpn (for vpn module)
 
 ## Install
 
@@ -27,9 +29,7 @@ cd ~/polybar-powerline
 
 ## Customize
 
-Change the modules you want in modules.sh (it has example modules you can safely edit this file its ignored)  
-Adding modules maybe consider contributing scripts and segments  
-
-run the launch.sh from your WM settings or manually or with sysd or what ever
+Change the modules you want in modules_custom.sh
+run the launch.sh from i3 or dwm
 
 ![Gruvbox Theme Thumbnail](https://raw.githubusercontent.com/danielnehrig/polybar-powerline/master/Thumbnail.png)
