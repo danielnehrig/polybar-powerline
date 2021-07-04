@@ -7,13 +7,13 @@
 #
 amount=$(ps aux | grep openvpn | wc -l)
 if [[ $amount == '1' ]]; then
-  echo "%{F$red}轢%{F-}"
+  echo "%{F$red}%{T3}轢%{T-}%{F-}"
 fi
 
 if [[ $amount == '2' ]]; then
-  echo "%{F$green}歷%{F-}"
+  echo "%{F$green}%{T3}歷%{T-}%{F-}"
 fi
 
 if [[ $amount == '3' ]]; then
-  echo "%{F$green}歷%{F-}"
+  echo "%{F$green}%{T3}歷%{T-}%{F-}"
 fi
