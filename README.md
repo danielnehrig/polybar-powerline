@@ -17,9 +17,9 @@
 ## Install
 
 ** WARNING SCRIPT WILL DELETE ~/.config/polybar folder  
-git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline
-cd ~/polybar-powerline  
-./install.sh  
+- git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline
+- cd ~/polybar-powerline  
+- ./install.sh  
 
 ## RUN
 
