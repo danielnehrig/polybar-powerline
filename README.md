@@ -1,12 +1,6 @@
 # Polybar Powerline Segmenting and Modules
 
-## Leave a Star if you like it
-
-## CONTRIBUTE
-
-- a module
-- a theme
-- a spacer
+![Gruvbox Theme Thumbnail](https://raw.githubusercontent.com/danielnehrig/polybar-powerline/master/Thumbnail.png)
 
 ## Requirements
 
@@ -27,9 +21,11 @@ git clone https://github/danielnehrig/polybar-powerline ~/polybar-powerline
 cd ~/polybar-powerline  
 ./install.sh  
 
+## RUN
+
+run the launch.sh from i3 or dwm or in terminal
+
 ## Customize
 
 Change the modules you want in modules_custom.sh
-run the launch.sh from i3 or dwm
-
-![Gruvbox Theme Thumbnail](https://raw.githubusercontent.com/danielnehrig/polybar-powerline/master/Thumbnail.png)
+switch the theme with switch.sh (though there currently is only one theme)
