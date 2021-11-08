@@ -12,14 +12,10 @@
 export POLY_BAR_HEIGHT=25
 
 text_size=14
-icon_size_2=20
-icon_size_1=14
-line_height=3
 
 # fonts
-export POLY_FONT_0="Material Design Icons:pixelsize=$icon_size_1:style:Solid;$line_height"
-export POLY_FONT_1="Hack Nerd Font Mono:pixelsize=$text_size:style:regular;$line_height"
-export POLY_FONT_2="Hack Nerd Font Mono:pixelsize=$icon_size_2:style:regular;6"
+export POLY_FONT_ICON="Material Design Icons:pixelsize=$text_size:style:Solid;$line_height"
+export POLY_FONT_TEXT_AND_ICON="FiraCode Nerd Font:pixelsize=$text_size:style:Regular;$line_height"
 
 export POLY_MODULES_CENTER="spacer-slanted-left-bg_accent_1 date spacer-slanted-right-bg_accent_1"
 export POLY_MODULES_RIGHT="cpu spacer-thin-left-whiteLight vpn spacer-thin-left-whiteLight pulseaudio spacer-thicc-left-bg_accent_1 vm xkeyboard battery power-menu"
