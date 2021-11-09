@@ -8,6 +8,7 @@
 - i3 / dwm
 - fonts
   - Nerd-Font (aur)
+    - Fira Code especially
   - MaterialIcons-Regular [link](https://material.io/resources/icons/?style=baseline)
 - speedtest-cli (for speedtest module)
   - pip install speedtest-cli
