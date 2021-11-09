@@ -1,1 +1,1 @@
-./themes/gruvbox/colors.sh
+./themes/tokyonight/colors.sh
