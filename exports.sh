@@ -25,7 +25,7 @@ source $BASEDIR/theme.sh
 # https://github.com/LemonBoy/bar#formatting
 export POLY_MODULE_UPDATES_PREFIX="%{B$poly_theme_bg_accent_2}%{F$poly_theme_text_white}%{F$poly_theme_text_blue_dark}%{T2}%{T-}"
 export POLY_MODULE_UPDATES="%{B$poly_theme_bg_accent_2}<label>%{B$poly_theme_bg_accent_1}%{F$poly_theme_bg_accent_2}"
-export POLY_MODULE_XWINDOW="%{B$poly_theme_bg_accent_1}<label>%{B$poly_theme_bg_accent_2}%{F$poly_theme_bg_accent_1}"
+export POLY_MODULE_XWINDOW="%{F$poly_theme_text_white}%{B$poly_theme_bg_accent_1}<label>%{B$poly_theme_bg_accent_2}%{F$poly_theme_bg_accent_1}"
 export POLY_MODULE_DATE="%{F$poly_theme_bg_accent_1}%{B$poly_theme_bg_accent_1}<label>%{B-}%{F$poly_theme_bg_accent_1}"
 export POLY_MODULE_VM="%{F$poly_theme_bg_accent_1}%{B$poly_theme_bg_accent_1}<label>"
 export POLY_MODULE_CPU="%{F$poly_theme_text_red}CPU%{F-} %percentage%%"
