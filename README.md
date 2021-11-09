@@ -1,6 +1,6 @@
 # Polybar Powerline Segmenting and Modules
 
-![Gruvbox Theme Thumbnail](https://raw.githubusercontent.com/danielnehrig/polybar-powerline/master/Thumbnail.png)
+https://user-images.githubusercontent.com/4050749/141023777-1e97c92a-10c7-4a5b-abe4-c1fd0e73abfc.mp4
 
 ## Requirements
 
