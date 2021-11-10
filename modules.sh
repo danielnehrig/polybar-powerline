@@ -21,7 +21,7 @@ export POLY_FONT_TEXT_AND_ICON_MONO="FiraCode Nerd Font Mono:pixelsize=16:style:
 
 export POLY_MODULES_CENTER="spacer-slanted-left-bg_accent_1 date spacer-slanted-right-bg_accent_1"
 export POLY_MODULES_RIGHT="cpu spacer-thin-left-whiteLight vpn spacer-thin-left-whiteLight pulseaudio spacer-thicc-left-bg_accent_1 vm xkeyboard battery power-menu"
-export POLY_MODULES_LEFT="updates spacer-thicc-right-bg_accent_2 i3 spacer-thin-right-whiteDark xwindow spacer-thicc-right-bg_accent_1"
+export POLY_MODULES_LEFT="updates spacer-thicc-right-bg_accent_2 i3 spacer-thicc-right-bg_accent_1"
 
 FILE=/home/$USER/.config/polybar/modules_custom.sh
 [[ ! -f $FILE ]] || source $FILE
