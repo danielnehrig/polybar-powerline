@@ -12,6 +12,7 @@ if [[ $amount == '0' ]]; then
 	start=$(virsh -c qemu:///system list --all | sed '/-    /!d' | sed -e 's/-    //g' | sed -e 's/ \s.*$//' | sed -e 's/ //g' | rofi -dmenu)
 	if [[ -n $start ]]; then
 		virsh -c qemu:///system start $start
+		looking-glass-client -s
 	fi
 else
 	while IFS= read -r line; do
