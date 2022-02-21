@@ -5,11 +5,10 @@ https://user-images.githubusercontent.com/4050749/141023777-1e97c92a-10c7-4a5b-a
 ## Requirements
 
 - polybar
-- i3 / dwm
+- i3 / dwm (dwm is not enabled pls provide a PR since i don't use it)
 - fonts
   - Nerd-Font (aur)
     - Fira Code especially
-  - MaterialIcons-Regular [link](https://material.io/resources/icons/?style=baseline)
 - speedtest-cli (for speedtest module)
   - pip install speedtest-cli
 - checkupdates (cli command) (arch = pacman-contrib)
