@@ -7,7 +7,7 @@
 #
 amount=$(virsh -c qemu:///system list --all | grep running | wc -l)
 if [[ $amount == '0' ]]; then
-  echo "%{F$poly_theme_text_red}󱐝%{F-}"
+	echo "%{F$poly_theme_text_red}綠%{F-}"
 else
-  echo "%{F$poly_theme_text_green}󰆧%{F-}"
+	echo "%{F$poly_theme_text_green}綠%{F-}"
 fi
